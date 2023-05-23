@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-br{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    width: 100%;
+    height: 104px;
+    padding: 24px 0px;
+    background-color: rgb(44, 62, 80);
+}
+
+nav a{
+    padding: 5px 0;
+    margin-right: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu-items:hover{
+    transition: 300ms;
+    color: #1abc9c;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-ul-part{
+    width: 350px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    }
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+nav li a{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+/* --------------------------------------------------------- */
+
+.section-one-container{
+    width: 1870px;
+    height: 686px;
+    margin-top: 104px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 100px;
+    padding-bottom: 96px;
+    background-color: #1abc9c;
+}
+
+.line-star-line{
+    height: 48px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+    margin-bottom: 24px;
+}
+
+.line-l{
+    height: 4px;
+    width: 112px;
+    margin-right: 16px;
+    border-radius: 2px;
+}
+
+.line-r{
+    height: 4px;
+    width: 112px;
+    margin-left: 16px;
+    border-radius: 2px;
+}
+
+/* ---------------------------------------------------- */
+
+.section-two-container{
+    width: 1870px;
+    margin: 0;
+    padding: 96px 0;
+    height: 950px;
+}
+
+.box{
+    border-radius: 10px;
+    height: 280px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    height: 278px;
+    width: 385px;
+    background-color: rgba(26, 188, 156, .9);
+    top: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: .3s ease
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+
+.box-image-style{
+    display: block;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------------- */
+
+.section-three-container{
+    background-color: #1abc9c;
+    padding: 96px 0;
+    height: 580px;
+    width: 1870px;
+    margin: 0;
+}
+
+.section-three-paragraph{
+    display: flex;
+    justify-content: center;
+    height: 166px;
+}
+
+.section-three-paragraph-style{
+    font-size: 17.5px;
+    font-weight: 500;
+    color: white;
+    text-align: start;
+}
+
+ .button-div{
+   padding: 16px 28px;
+}
+
+.free-download-button{
+    color: white;
+    height: 66px;
+    width: 232px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.free-download-button:hover{
+    background-color: #fff;
+}
+
+.dw-icon{
+    margin-right: 8px;
+}
+
+
+/* -------------------------------------------- */
+
+.section-four-container{
+    padding: 96px 0;
+    height: 860px;
+    width: 1870px;
+    margin: 0;
+}
+
+.input-style{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 24px 0 ;
+    height: 88px;
+    width: 746px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.send-button{
+    color: white;
+    background-color: rgb(26, 188, 156, .6);
+    font-size: 17px;
+    height: 66px;
+    width: 103px;
+    padding: 16px 28px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.send-button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------ */
+
+.footer-part{
+    background-color: #2c3e50;
+    padding: 80px 0;
+    height: 272px;
+    width: 1870px;
+    margin: 0;
+}
+
+.footer-tittle-style{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.footer-paragraph-style{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-list-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.btn-social {
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.footer-link-style{
+    color: #1abc9c;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.footer-link-style:hover{
+    color: rgba(26, 188, 156, .5);
+}
+
+/* ---------------------------------------------------- */
+
+.last-part{
+    height: 72px;
+    width: 1870px;
+    padding: 24px 0;
+    background-color: #1a252f;
+}
+
+.last-part p{
+    font-size: 18px;
+    color: white;
+}
